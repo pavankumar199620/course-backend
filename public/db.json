@@ -1,0 +1,42 @@
+ [{
+  "id":1,
+  "Coursetitle": "Java Full Course",
+  "Description": "Core and Advanced Programming",
+  "Published": "Published",
+  "Cost": 3000,
+  "Duration": "6-months" 
+
+},
+{
+  "id":2,
+  "Coursetitle": "Cloud Computing Course",
+  "Description": "Cloud Computing and Virtualization",
+  "Published": "Published",
+  "Cost": 2000,
+  "Duration": "4-months" 
+ 
+},
+{
+  "id":3,
+  "Coursetitle": "Web-Database appl Developement",
+  "Description": "Html,css,javascript,nodejs and mongodb",
+  "Published": "Published",
+  "Cost": 2500,
+  "Duration": "6-months"  
+},
+{
+  "id":4,
+  "Coursetitle": "Devops Engineering Course",
+  "Description": "Code Review Automation,Deployment Strategies and APM",
+  "Published": "Unpublished",
+  "Cost": 3500,
+  "Duration": "3-months" 
+},
+{
+  "id":5,
+  "Coursetitle": "Pega Course",
+  "Description": "BPM,CPM Applications,web and Enterprise Applications",
+  "Published": "Published",
+  "Cost": 4000,
+  "Duration": "5-months" 
+}]

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pavan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+
+        <div  class="nav">
+            <ul  type="square" >
+                <li>
+                    <a href="#About">About</a>
+                </li> 
+
+                <li style="padding-left: 10%" >
+                    <a href="#Education">Education</a>
+                </li>  
+                <li>
+                    <a href="#Projects">Projects</a>
+                </li>  
+                <li>
+                    <a href="#Experience">Experience</a>
+                </li>  <li>
+                    <a href="#Blogs">Blogs</a>
+                </li>  
+                <li>
+                    <a href="#Contacts">Contacts</a>
+                </li>  
+
+            </ul>
+        </div>
+        <div class="deff" id="About">
+            <div style="float: left;padding-top: 20px; ">
+                <img src="index.jpg" width="150" height="200"/><br>
+                <b>PAVAN KUMAR</b>
+            </div>
+            <div style="float: next; padding-left: 120px;margin-left: 120px">
+                <h2>ABOUT</h2>
+                <span style="font-family: Arial">
+                    Hello! I am Pavan Kumar, an International student, studying at 
+                    the University of New Haven with Computer and Information Science.
+                </span>
+            </div>
+        </div>
+
+        <div class="deff" id="Education">
+            <h2>EDUCATION</h2>
+            <span style="font-family: Arial">
+                <ul>
+                    <li>
+                        Master of Science in Computer Science, University of New Haven.
+                    </li>
+                    <li>
+                        Bachelor's form Andhra Layola College, Krishna University.
+                    </li>
+                </ul>
+            </span>
+        </div>    
+        <div class="deff" >
+            <div style="float: left; width: 470px; height: 250px ;border-right-color: blue;border-right-style: solid;" id="Projects">
+                <h2>PROJECTS</h2>
+                <span style="font-family: Arial;">
+                    <ul>
+                        <li>
+                            Wide Area Application Services (WAAS).
+                        </li>
+                        <li>
+                            Smart Money.
+                        </li>
+                        <li>
+                            City Group.
+                        </li>
+                    </ul>
+                </span>
+            </div>  
+
+            <div style="float: next;margin-left: 265px;padding-left: 265px;" id="Experience">
+                <h2>EXPERIENCE</h2>
+                <span style="font-family: Arial">
+                    I have a total 4 years of experience in IT. In my work, 
+                    I have used Java as a backend language and JSP, HTML, CSS as front end Technologies.
+                </span>
+            </div>
+        </div>
+
+        <div class="deff" id="Blogs">
+            <h2>BLOGS</h2>
+            <span style="font-family: Arial">
+                Research paper on SECURE TRANSFORMATION OF DATA BY USING VIGENERE AFFINE CIPHER AND DNA SEQUENCE
+            </span>
+        </div> 
+
+        <div class="deff" id="Contacts">
+            <h2>CONTACTS</h2>
+            <span style="font-family: Arial">
+                Phone: +1(707) 207-1892
+           </span>
+            <div style="text-align: center">
+                <a href="https://www.linkedin.com/login/"><img src="linkedin-logo.png" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/login"><img src="cat-icon.png" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com/"><img src="Facebook-logo.png" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/accounts/login/"><img src="Instagram-logo.png" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/i/flow/login"><img src="twitter-logo.png" height="50" width="50"></a>
+            </div>
+        </div> 
+
+    </body>
+</html>
+
+<style>
+    body{
+    font-size: large;
+}
+
+root { 
+    display: block;
+}
+
+root { 
+    display: block;
+}
+
+.nav {
+    width: 1075px; 
+    height: 50px; 
+    margin-left: 50px;
+    background: mistyrose;
+    padding-left: 5%;
+    border-style: solid;
+    border-color: chartreuse; 
+    font-family: cursive;
+    border-left-style: solid;
+    border-left-color: green; 
+    border-right-style: solid;
+    border-right-color: green; 
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0pt;
+}
+.nav li{
+    display: inline-block;
+    width: 125pt;
+    margin-top: 5pt;
+    margin-left: 0pt; 
+    margin-right: -9pt; 
+    margin-bottom:  5pt;
+    font-size: medium;
+    text-decoration-style: solid;  
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    border-style: solid;
+    border-width: thin;
+}
+.nav li:hover ul{ 
+    display:block; 
+    background: greenyellow; 
+    height:auto; 
+    width:auto; 
+} 
+#nav li ul li{ 
+    clear:both; 
+    display: block;
+    border-style:none;
+    margin: 5pt; 
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+#nav a:hover {    
+    color: red;
+}
+
+
+.deff{
+    border: blue; 
+    width: 1090px; 
+    height: 200px;
+   
+    padding-left:  50px;
+    margin-left: 50px;
+    background: wheat;
+    padding-bottom: 50px;
+    border-style: solid; 
+    border-width: 2px; 
+}
+.deff1{  
+    height: 250px; 
+    padding-left:  100px;
+    margin-left: 150px;
+ margin-bottom: 50px;
+}
+h2{
+    text-align: justify;
+    font-family: Arial;
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+
+
+span {
+    color: brown;
+    font-weight: normal;
+}
+td {
+    padding: 5px;
+}
+.topics tr { line-height: 14px; }
+</style>

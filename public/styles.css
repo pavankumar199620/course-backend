@@ -1,0 +1,109 @@
+body{
+    font-size: large;
+}
+
+root { 
+    display: block;
+}
+
+root { 
+    display: block;
+}
+
+.nav {
+    width: 1085px; 
+    height: 50px; 
+    margin-left: 50px;
+    background: mistyrose;
+    padding-left: 5%;
+    border-style: solid;
+    border-color: chartreuse; 
+    font-family: cursive;
+    border-left-style: solid;
+    border-left-color: green; 
+    border-right-style: solid;
+    border-right-color: green; 
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0pt;
+}
+.nav li{
+    display: inline-block;
+    width: 125pt;
+    margin-top: 5pt;
+    margin-left: 0pt; 
+    margin-right: -9pt; 
+    margin-bottom:  5pt;
+    font-size: medium;
+    text-decoration-style: solid;  
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    border-style: solid;
+    border-width: thin;
+}
+.nav li:hover ul{ 
+    display:block; 
+    background: greenyellow; 
+    height:auto; 
+    width:auto; 
+} 
+#nav li ul li{ 
+    clear:both; 
+    display: block;
+    border-style:none;
+    margin: 5pt; 
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+#nav a:hover {    
+    color: red;
+}
+
+
+.deff{
+    border: blue; 
+    width: 1090px; 
+    height: 200px;
+   
+    padding-left:  50px;
+    margin-left: 50px;
+    background: wheat;
+    padding-bottom: 50px;
+    border-style: solid; 
+    border-width: 2px; 
+}
+.deff1{  
+    height: 250px; 
+    padding-left:  100px;
+    margin-left: 150px;
+ margin-bottom: 50px;
+}
+h2{
+    text-align: justify;
+    font-family: Arial;
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+
+
+span {
+    color: brown;
+    font-weight: normal;
+}
+td {
+    padding: 5px;
+}
+.topics tr { line-height: 14px; }
